@@ -1,12 +1,56 @@
 body {
-    color: #333;
+    color: white;
     font-size: 16px;
     line-height: 1.5;
     font-family: Arial, sans-serif;
+    background: url("C:\\Users\\tiagobarrosmarino\\Pictures\\Fond.jpg");
+    background-size: cover;
+    padding: 20px;
 }
 
 h1 { 
-  font-family: "Lobster", cursive;
-  font-size: 50px;
+  font-family: "Oswald", cursive;
+  font-size: 36px;
   text-align: center;
+  font-weight: regular; 
+}
+
+h2 { 
+  font-family: "Cinzel", cursive;
+  font-size: 28px;
+  text-align: left;
+  font-weight: regular; 
+}
+
+h3 { 
+  font-family: "Cinzel", cursive;
+  font-size: 28px;
+  text-align: left;
+  font-weight: regular; 
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold 600; 
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0; 
+}
+
+.banniere {
+    background: url("https://pngimg.com/uploads/welcome/welcome_PNG99.png");
+    padding: 250px;
+    background-position: center;
+    background-size: 1200px 400px;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: white;
+    text-decoration: absolute;
+    text-align: right;
 }
