@@ -38,11 +38,6 @@ p {
   margin: 20px;
 }
 
-body {
-    font-family: sans-serif;
-    margin: 20px; 
-}
-
 .banniere {
  /*   background: url("https://pngimg.com/uploads/welcome/welcome_PNG99.png");
     padding: 250px;
@@ -52,7 +47,6 @@ body {
 
     ancienne maniere de mettre le logo avec un background
 */
-  text-align: center;
 }
 
 .banniere img{
@@ -98,4 +92,18 @@ p{
 }
 img {
   margin: 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 40px;   
+  height: auto;  
+  margin-right: 10px;
+}
+.gt3rs {
+  text-align: right;
 }
