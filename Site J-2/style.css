@@ -1,11 +1,9 @@
 body {
     color: white;
     font-size: 16px;
-    line-height: 1.5;
     font-family: Arial, sans-serif;
     background: linear-gradient(90deg, #000C40, #607D8B);;
-    background-size: cover;
-    padding: 20px;
+    margin: 20px;
 }
 
 h1 { 
@@ -13,6 +11,7 @@ h1 {
   font-size: 36px;
   text-align: center;
   font-weight: regular; 
+  margin: 20px;
 }
 
 h2 { 
@@ -20,13 +19,15 @@ h2 {
   font-size: 28px;
   text-align: left;
   font-weight: regular; 
+  margin: 20px;
 }
 
 h3 { 
   font-family: "Cinzel", cursive;
   font-size: 28px;
   text-align: left;
-  font-weight: regular; 
+  font-weight: regular;
+  margin: 20px; 
 }
 
 p {
@@ -34,11 +35,12 @@ p {
   font-size: 14px;
   text-align: left;
   font-weight: bold 600; 
+  margin: 20px;
 }
 
 body {
     font-family: sans-serif;
-    margin: 0; 
+    margin: 20px; 
 }
 
 .banniere {
@@ -73,13 +75,15 @@ ul {
     display: flex;
     list-style: none; 
     gap: 20px;        
-    padding: 0;
-    margin: 0;
+    justify-content: right;
+    margin: 20px;
 }
 
 li a {
     color: white;
     text-decoration: underline;
+    font-style: oblique;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 section{
     padding:60px 0;
@@ -91,4 +95,7 @@ h2{
 
 p{
     line-height:1.8;
+}
+img {
+  margin: 20px;
 }
