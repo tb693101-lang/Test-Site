@@ -53,13 +53,20 @@ body {
   text-align: center;
 }
 
-.banniere img {
-  max-height: 400px;
-  max-width: 100%;
+.banniere img{
+    width:70%;
+    display:block;
+    margin:auto;
 }
 
 a {
     color: white;
+  
+}
+a:hover{
+  background-color: black;
+  opacity: 0.8;
+
 }
 
 ul {
@@ -73,4 +80,15 @@ ul {
 li a {
     color: white;
     text-decoration: underline;
+}
+section{
+    padding:60px 0;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+p{
+    line-height:1.8;
 }
