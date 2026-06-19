@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
 <header>
-  <img src=c:\Users\tiagobarrosmarino\Pictures\logo.png alt="Logo" class="logo" width="700" height="400">
+  <img src=c:\Users\tiagobarrosmarino\Pictures\logo.png alt="Logo" class="logo">
+       <nav>
+    <ul>
+        <li>
+            <a href="contact.html">Me contacter</a>
+        </li>
+        <li>
+            <a href="about.html">À propos</a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/@WiclinoX">YouTube</a>
+        </li>
+        <li>
+            <a href="https://tiktok.com/@atiygo">TikTok</a>
+        </li>
+    </ul>
+</nav>
 </header>
 <head>
     <meta charset="UTF-8">
@@ -20,7 +36,7 @@
     <div class="banniere">
         <img src="https://pngimg.com/uploads/welcome/welcome_PNG99.png" /> 
     </div>
-    <section>
+   <main>
     <h2>1. Qui suis-je ?</h2>
     <p>Je suis TIAGO, un jeune développeur web passionné par la création de sites web interactifs et modernes. J'ai 16 ans et je mesure 1m75.</p>
     <h3>2. Mes passions</h3>
@@ -28,27 +44,55 @@
         <li>Le développement web</li>
         <li>Les jeux vidéo</li>
         <li>La musique</li>
-        <li>Les voitures</li>
+        <li>Les voitures </li>
+
     </ol>
-    <div class="gt3rs">
-        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3h5NWY3cHlweTByZTBoMHpweWtueDlkMTl6Y3F3a2QwNWw1eHhicCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0Steag1agiJ3IIZyQE/giphy.gif" alt="GT3RS Meilleur voiture" width="350" height="200"/>
-    </div>
+    <table>
+        <caption>Mes Classement sur les jeux</caption>
+        <tr>
+            <th>Jeu</th>
+            <th>Classement</th>
+            <th>Nombre d'heure</th>
+        </tr>
+        <tr>
+            <th>Fortnite</th>
+            <th>top 14 500</th>
+            <th>3000 heures</th>
+        </tr>
+        <tr>
+            <th>Apex</th>
+            <th>Predator</th>
+            <th>350 heures</th>
+        </tr>
+    </table>
+    <section>
+<form method="get" action="">
+  <fieldset>
+     <legend>Vos coordonnées</legend> 
+     <label for="nom">Quel est votre nom ?</label>
+     <input type="text" name="nom" id="nom" autofocus required>
+     <label for="prenom">Quel est votre prénom ?</label>
+     <input type="text" name="prenom" id="prenom" required>
+     <label for="email">Quel est votre e-mail ?</label>
+     <input type="email" name="email" id="email" required>
+  </fieldset>
+  <fieldset>
+     <legend>Votre souhait</legend> 
+     <p>
+        Faites un souhait que vous voudriez voir exaucé :
+        <input type="radio" name="souhait" value="riche" id="riche"> <label for="riche">Être riche</label>
+        <input type="radio" name="souhait" value="celebre" id="celebre"> <label for="celebre">Être célèbre</label>
+        <input type="radio" name="souhait" value="intelligent" id="intelligent"> <label for="intelligent">Être <strong>encore</strong> plus intelligent</label>
+        <input type="radio" name="souhait" value="autre" id="autre"> <label for="autre">Autre...</label>
+     </p>
+     <p>
+        <label for="precisions">Si "Autre", veuillez préciser :</label>
+        <textarea name="precisions" id="precisions" cols="40" rows="4"></textarea>
+     </p>
+  </fieldset>
+  <input type="submit" value="Envoyer">
+</form>
 </section>
-     <nav>
-    <ul>
-        <li>
-            <a href="contact.html">Me contacter</a>
-        </li>
-        <li>
-            <a href="about.html">À propos</a>
-        </li>
-        <li>
-            <a href="https://www.youtube.com/@WiclinoX">YouTube</a>
-        </li>
-        <li>
-            <a href="https://tiktok.com/@atiygo">TikTok</a>
-        </li>
-    </ul>
-</nav>
+    </main>
 </body>
 </html>
